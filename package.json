@@ -1,6 +1,6 @@
 {
-  "name": "@vanillaes/csv",
-  "version": "3.0.1",
+  "name": "@klinki/csv",
+  "version": "3.1.0",
   "description": "A modern, fast, RFC 4180 compliant parser for JS",
   "keywords": [
     "esm",
@@ -20,9 +20,13 @@
       "name": "Colton Ehrman",
       "email": "coltonje95@gmail.com",
       "url": "http://coltonehrman.com"
+    },
+    {
+      "name": "David Klingenberg",
+      "url": "https://github.com/klinki"
     }
   ],
-  "repository": "http://github.com/vanillaes/csv",
+  "repository": "https://github.com/klinki/csv",
   "type": "module",
   "exports": {
     "import": "./index.js",

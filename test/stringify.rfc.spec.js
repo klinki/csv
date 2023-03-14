@@ -1,5 +1,5 @@
 import test from 'tape'
-import { stringify } from '@vanillaes/csv'
+import { stringify } from '@klinki/csv'
 import { createRequire } from 'module'
 const require = createRequire(import.meta.url)
 const rfc1 = require('./__test__/rfc1.json')

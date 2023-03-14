@@ -1,5 +1,5 @@
 import test from 'tape'
-import * as CSV from '@vanillaes/csv'
+import * as CSV from '@klinki/csv'
 import { createRequire } from 'module'
 const require = createRequire(import.meta.url)
 const integers = require('./__test__/integers.json')
