@@ -141,7 +141,7 @@ export function stringify (array, options = {}, replacer = v => v) {
       }
       entry += replacer(col, ctx.row, ctx.col)
       if (cIdx !== row.length - 1) {
-        entry += ','
+        entry += options.delimiter ?? ','
       }
       ctx.col++
     })
